@@ -2,7 +2,7 @@ version: "3"
 services:
   server:
     build: .
-    command: dotnet run
+    command: dotnet run --project Blog
     ports:
       - "5000:5000"
     volumes:
